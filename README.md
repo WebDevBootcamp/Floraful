@@ -1,4 +1,9 @@
-# TABLE OF CONTENTS
+# Floraful
+![] (http://i.imgur.com/wBcUl2j.png)
+
+## Floraful is a web application to allow users to input plant observations and to provide output reports of the observed data
+
+## TABLE OF CONTENTS
 ---------------------
    
 ### [Introduction] (#a1)
@@ -9,18 +14,15 @@
 ### [Maintainers] (#a6)
 
 <a name="a1"/>
-# INTRODUCTION
+## INTRODUCTION
 ------------
-![] (http://goldenarmor.com/storage/JUMBOAUDREY2.jpg?__SQUARESPACE_CACHEVERSION=1380715610070)
-
 The purpose of this application is to gather information on local flora in the state of Colorado via user-submitted data, with an emphasis on ease of use for the end-user submitting information through the use of a form on a responsive site, most likely on a smartphone in the field. Flora is defined as the plants of a particular region, habitat, or geologic period. For this database, flora is defined
 as plants currently found growing in the state of Colorado. The information gathered includes an optional name of the user, a unique non-sequential identifier for the record, a timestamp, name of the plant, soil conditions, weather conditions, location, and a notes field for any other relevant information. This website and database are being used to gather a current status of the Flora in Colorado, as well as to detect changes in the flora over time.
 
 A privileged user will then have access to the database through a password-protected login and be able to view the information in a browser, with the option to download the information in a user-generated report form (CSV file) that can then be imported into a Microsoft Excel spreadsheet. This user will  be able to add users and edit entries. The end-user will not have access to this information, but rather a user with administrative privileges. 
 
-
 <a name="a2"/>
-# DATABASE OUTLINE
+## DATABASE OUTLINE
 -------------
 | Field              | Data Type    |
 |--------------------|--------------|
@@ -32,8 +34,9 @@ A privileged user will then have access to the database through a password-prote
 | Date/Time          | TIMESTAMP    |
 | Location           | VARCHAR(50)  |
 | Notes              | VARCHAR(200) |
+
 <a name="a3"/>
-# FORM OUTLINE
+## FORM OUTLINE
 -------------
 |Field               | Form Field |
 |--------------------|------------|
@@ -48,12 +51,10 @@ A privileged user will then have access to the database through a password-prote
 | Submit             | submit     |
 
 <a name="a4"/>
-# CLIENT-SIDE OUTLINE   [coloradoflorafinders.com]
+## CLIENT-SIDE OUTLINE   [Floraful.com]
 
 
-Welcome to Colorado Flora Finders.  Thank you for helping us in our efforts to catalog all the Flora (aka Plants)
-currently found growing in the state of Colorado.
-
+Welcome to Floraful.
 You may enter as many Plants from as many locations as you like.  The Plants entered must be planted in the ground and
 be growing outside.  They may be perennials or annuals.
 
@@ -103,7 +104,7 @@ hover text box.
       with the missing data field(s) highlighted in red.  If correct, goes to Data Submitted Page.
 
 
-### DATA SUBMITTED PAGE    [coloradoflorafinders.com/thankyou]
+### DATA SUBMITTED PAGE    [Floraful.com/thankyou]
 
 
 Thank you (Name of person entering the record from Main Page) for submitting this Plant data.
@@ -121,7 +122,7 @@ Please enter as many Plants as you wish.
 
 
 
-## **REPORT PASSWORD PAGE**     [coloradoflorafinders.com/report]
+### **REPORT PASSWORD PAGE**     [Floraful.com/report]
 
 This page allows you to generate a report of all the Flora records currently in the Flora Finders database ordered by
 the Date and Time they were entered.
@@ -142,13 +143,13 @@ Generate Report button.
     - Optional Feature - button to create pdf report.
     
 <a name="a5"/> 
-# OPTIONAL FEATURES
+## OPTIONAL FEATURES
 -----------
 - access weather api to gather weather conditions when observation is taken.
 - access geocoding api to get latitude and longitude of location when observation is taken.
 
 <a name="a6"/>   
-# MAINTAINERS
+## MAINTAINERS
 -----------
 ### Current maintainers:
 * Mark Newcomb - https://github.com/MarkNewcomb1
